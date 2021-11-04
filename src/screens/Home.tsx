@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useCallback, useState } from "react";
 
 import { View, Text, TextInput, StyleSheet, Button } from "react-native";
 import { ScrollView } from "react-native-gesture-handler";
@@ -14,6 +14,10 @@ export function Home() {
     setFriends(data);
   }
 
+  const handleFollow = useCallback(() => {
+    console.log("useCallback");
+  }, []);
+
   return (
     <View style={styles.container}>
       <Text style={styles.title}>Amigos</Text>
@@ -27,7 +31,7 @@ export function Home() {
       <Button title="Buscar" onPress={handleSearch} />
 
       <ScrollView style={styles.list}>
-        <FriendList data={friends} />
+        <FriendList data={friends} follow={handleFollow} />
       </ScrollView>
     </View>
   );
