@@ -1,0 +1,15 @@
+com/performanceapp/MainApplication.java
+ com.performanceapp.MainApplication
+ com.performanceapp.MainApplication$1
+com/performanceapp/MainActivity.java
+ com.performanceapp.MainActivity
+ com.performanceapp.MainActivity$1
+com/performanceapp/ReactNativeFlipper.java
+ com.performanceapp.ReactNativeFlipper
+ com.performanceapp.ReactNativeFlipper$1
+ com.performanceapp.ReactNativeFlipper$2
+ com.performanceapp.ReactNativeFlipper$2$1
+com/performanceapp/BuildConfig.java
+ com.performanceapp.BuildConfig
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
